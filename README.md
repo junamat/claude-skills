@@ -11,7 +11,7 @@ Personal skills for Claude Code.
 Symlink each skill into `~/.claude/skills/`:
 
 ```bash
-git clone git@github.com:junamat/claude-skills.git ~/claude-skills
+git clone https://github.com/junamat/claude-skills.git ~/claude-skills
 for d in ~/claude-skills/*/; do ln -sfn "$d" ~/.claude/skills/"$(basename "$d")"; done
 ```
 
